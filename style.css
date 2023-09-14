@@ -1,0 +1,463 @@
+/* --- Anasayfa header alanı -- --- -- --- -- --- -- ---  */
+.carousel-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(14, 7, 50, 0.5), rgba(11, 4, 68, 0.3));
+}
+.carousel-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-inner img {
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    background-blend-mode: multiply;
+}
+
+.carousel-inner p{
+    margin-bottom: 18vh;
+}
+.carousel-inner h3{
+    margin-bottom: 4vh;
+}
+
+/* -- -- -- Container alanı -- -- -- */
+.service{
+    text-align: center;
+    margin-top: 10vh;
+    margin-bottom: -6vh
+}
+.service p{
+    padding-left: 35vh;
+    padding-right: 35vh;
+} 
+
+.service h4{
+    margin-bottom: 2rem;
+}
+
+.service {
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    background: url(e3d75e70.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    opacity: 1.9;
+}
+.service::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(5, 3, 29, 0.8), rgba(0, 0, 0, 0.5));
+}
+
+.service .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.service button {
+    margin-top: 2rem;
+    background-color: transparent; /* Arkaplan şeffaf */
+    color: grey; 
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+.service button:hover{
+    background-color: white;
+    color: black;
+}
+
+.hakkimizda, .hizmet{
+    text-align: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh
+}
+.hakkimizda, .hizmet p{
+    padding-left: 35vh;
+    padding-right: 35vh;
+} 
+.hizmetlerimiz p {
+    width: 43%;
+    margin: 0 auto;
+}
+.hakkimizda h4{
+    color: #990033;
+    margin-bottom: 2rem;
+}
+.hizmet h4{
+    margin-bottom: 2rem;
+}
+
+.hizmet {
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    background: url(e3d75e70.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    opacity: 1.9;
+}
+.hizmet::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(5, 3, 29, 0.8), rgba(0, 0, 0, 0.5));
+}
+
+.about h5{
+    color: #990033;
+    
+}
+
+.about .card{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.hizmet .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.hizmet button a{
+    color: grey;
+    text-decoration: none;
+}
+
+.hizmet button {
+    margin-top: 2rem;
+    background-color: transparent; /* Arkaplan şeffaf */
+    color: grey; 
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+.hizmet button:hover{
+    background-color: white;
+}
+
+.container .text-center h4{
+    margin-bottom: 10vh;
+    color: #990033;
+}
+
+.container .d-flex button {
+    margin-left: 3rem;
+    margin-top: 2rem;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+}
+/* -- -- -- Container alanı -- -- -- */
+/* --- Anasayfa header bitiş -- --- -- --- -- --- -- ---  */
+
+/* --- Team header alanı -- --- -- --- -- --- -- ---  */
+.team-header {
+    position: relative;
+    background: url(takim.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20vh;
+}
+
+.team-header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(rgba(8, 5, 55, 0.8), rgba(0, 0, 0, 0.5));
+    backdrop-filter: blur(5px);
+}
+
+.team-header-content{
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+.team-header-content h1{
+    font-size: 28px;
+    font-weight: lighter;
+}
+/* --- Team header bitiş -- --- -- --- -- --- -- ---  */
+
+.about .btn:hover {
+color: #990033;
+}
+
+.about .btn.show {
+color: #990033;
+}
+
+.about{
+    margin-top: 5vh;
+}
+
+.about hr {
+
+    width: 33%;
+    display: block;
+    margin: 0 auto;
+}
+
+.vizyon {
+    margin-bottom: 3vh;
+}
+
+/* --- hizmetlerimiz header alanı -- --- -- --- -- --- -- ---  */
+.list-group {
+    list-style: none;
+    padding-left: 0;
+}
+
+.list-group-item {
+    color: #000;
+    border: none;
+    margin-bottom: 5px;
+}
+
+.list-group-item a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.list-group-item a:hover {
+    color: #990033; /* Hover rengi */
+}
+
+.h4-custom {
+    color: #990033; 
+}
+
+.h5-custom {
+    color: #990033; 
+}
+
+.hizmetlerimiz-header {
+    position: relative;
+    background: url(771e046a.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20vh;
+}
+
+.hizmetlerimiz-header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(rgba(8, 5, 55, 0.8), rgba(0, 0, 0, 0.5));
+    backdrop-filter: blur(5px);
+}
+
+.hizmetlerimiz-header-content{
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+.hizmetlerimiz-header-content h1{
+    font-size: 28px;
+    font-weight: lighter;
+}
+/* --- Team header bitiş -- --- -- --- -- --- -- ---  */
+
+/* -- navbar alanı -- --- -- --- -- --- -- ---  */
+.team-navbar {  /* anasayfaya carausel yaptıktan sonra bozulduğu için ayar */
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+
+.navbar {
+    top: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 2; /* Navbar'ın Carousel'ın üzerinde */
+}
+
+.collapse{
+    font-family: 'Sofia Sans', sans-serif;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    color: white;
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding-right: 0;
+    margin-left: 2rem;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #990033;
+}
+
+.team-navbar .collapse .languege a{
+    text-decoration: none;
+    color: white;
+}
+.navbar .collapse .languege a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar .collapse .languege a:hover{
+    color: #990033;
+}
+/* -- navbar alanı bitiş -- --- -- --- -- --- -- --- */
+
+/* -- "Takım" sayfası sol kısım -- --- -- --- -- --- -- --- */
+.kategori h6 a{
+    text-decoration: none;
+    color: gray;
+}
+.kategori h6 a:hover {
+    color: #990033;
+    text-decoration: none; 
+}
+
+.kategori h6 {
+    margin-bottom: 20px;
+}
+
+.col-2 h5{
+    color: #990033;
+    font-family: 'Sofia Sans', sans-serif;
+}
+
+form input{
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 100%;
+    font-family: 'Sofia Sans', sans-serif;
+}
+
+input:focus {
+    outline: none;
+}
+input {
+    margin-bottom: 1rem; 
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: 14px;
+}
+select {
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 100%;
+    color: gray;
+    font-size: 14px;
+}
+select:focus {
+    outline: none;
+}
+select button {
+    text-align: left;
+}
+select,
+.list-unstyled li {
+    margin-bottom: 1rem; 
+    font-family: 'Sofia Sans', sans-serif;
+}
+.container .buton button{
+    border: none;
+    color: gray;
+    border-bottom: 1px solid gray;
+    background: none;
+    font-family: 'Sofia Sans', sans-serif;
+}
+button:focus {
+    outline: none;
+}
+
+.alfabe ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.alfabe ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    margin-right: 4%;
+}
+
+.alfabe ul li a:hover {
+    color: #990033;
+    text-decoration: none; 
+}
+/* -- "Takım" sayfası sol kısım bitiş  -- --- -- --- -- --- -- --- */
+img{
+    max-width: 100%;
+}
+/* -- "Takım" sayfası sağ kısım -- --- -- --- -- --- -- --- */
+
+/* --- -- Footer Alanı -- --- */
+
+footer {
+    background-color: #020a20;
+}
+.footer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+.footer ul li a:hover {
+    color: gray;
+    text-decoration: none; 
+}
+.footer ul li p{
+    font-weight:500 ;
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: 16px;
+}
+.input-group input.form-control {
+    border-radius: 0;
+    height: 38px;
+}
+
+.input-group button.btn {
+    min-width: 38px;
+    height: 38px;
+    border-radius: 0;
+}
